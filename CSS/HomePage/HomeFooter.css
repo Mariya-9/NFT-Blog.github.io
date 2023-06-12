@@ -1,0 +1,137 @@
+/* FOOTER CODE START*/
+.post-footer {
+  margin-bottom: -2em;
+}
+
+.copyright-line {
+  letter-spacing: 0.1em;
+  width: 12em;
+  margin-left: 23em;
+  font-size: 0.8em;
+}
+
+.contact-input {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin-left: 4em;
+}
+
+.social-contact {
+  margin-left: 64em;
+  margin-top: -24rem;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2em;
+}
+
+.social-main {
+  margin-bottom: 2em;
+}
+
+.social-list {
+  padding: 0.5em 0.6em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: rgb(71, 181, 255);
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.social-list-f {
+  padding: 0.5em 0.8em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: rgb(71, 181, 255);
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.social-list:hover {
+  padding: 0.5em 0.6em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: #eee;
+  background-color: rgb(255, 194, 111);
+  border-radius: 50%;
+}
+
+.social-list-f:hover {
+  padding: 0.5em 0.8em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: #eee;
+  background-color: rgb(255, 194, 111);
+  border-radius: 50%;
+}
+
+.home-contact-info {
+  border: 2px solid gray;
+  border-bottom: none;
+  padding: 1.2em;
+  margin: auto;
+  margin-top: 10em;
+  width: 55em;
+}
+
+.contact-name {
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 1em;
+  background-color: #eee;
+  border: none;
+}
+
+.contact-email {
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 1em;
+  background-color: #eee;
+  border: none;
+}
+
+.contact-subscribe {
+  padding: 1.2em;
+  margin-left: 1em;
+  border-radius: 20px;
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #eee;
+  color: rgb(71, 181, 255);
+  border: 1px solid #eee;
+}
+
+.contact-subscribe:hover,
+.contact-subscribe:focus {
+  padding: 1.2em;
+  margin-left: 1em;
+  border-radius: 20px;
+
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid orange;
+  background-color: #fff;
+  color: orange;
+  border-radius: 20px;
+}
+
+::placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8em;
+  text-indent: 20px;
+}
+
+/* FOOTER CODE END */

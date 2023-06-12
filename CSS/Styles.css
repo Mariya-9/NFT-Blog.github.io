@@ -1,0 +1,55 @@
+/* HOME PAGE CSS STYLES */
+@import url(../CSS/HomePage/Nav.css);
+@import url(../CSS/HomePage/Aside.css);
+@import url(../CSS/HomePage/Card.css);
+@import url(../CSS/HomePage/HomeFooter.css);
+@import url(../CSS/HomePage/HomeMediaQuery.css);
+
+/* POST PAGE CSS STYLES*/
+@import url(../CSS/Post/PostGrid.css);
+@import url(../CSS/Post/PostFooter.css);
+@import url(../CSS/Post/Author.css);
+@import url(../CSS/Post/PostMediaQuery.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Titillium+Web:wght@200;300&display=swap");
+* {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  list-style: none;
+}
+
+/* BLOG CONTAINER CSS */
+
+.blog-Container {
+  display: grid;
+  width: 85%;
+  margin-left: 2.8em;
+  grid-template-columns: 100%;
+  grid-template-rows: 120px 600px 150px 1fr;
+  grid-template-areas:
+    "hr hr hr hr hr hr "
+    "main main main main main main"
+    "co co co co co co"
+    " fr fr fr fr fr fr ";
+}
+
+.blog-nav {
+  grid-area: hr;
+}
+
+.blog-card {
+  grid-area: main;
+}
+
+.blog-contacts {
+  grid-area: co;
+}
+.blog-footer {
+  grid-area: fr;
+}

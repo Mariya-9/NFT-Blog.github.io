@@ -1,0 +1,30 @@
+.post-container {
+  display: grid;
+  width: 85%;
+  margin: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: 120px 600px 350px;
+  grid-template-areas:
+    "hr hr hr hr hr hr "
+    "as as as as as as "
+    " fr fr fr fr fr fr ";
+  /* border: 1px solid rgb(195, 172, 208); */
+}
+.box {
+  /* border: 1px solid rgb(195, 172, 208); */
+}
+
+.post-nav {
+  grid-area: hr;
+}
+
+.post-section {
+  grid-area: as;
+}
+
+.post-footer {
+  grid-area: fr;
+  margin: auto;
+  width: 100%;
+  margin-top: 2em;
+}

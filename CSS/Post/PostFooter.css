@@ -1,0 +1,77 @@
+/* POST FOOTER CSS START*/
+
+.footer-social {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  list-style: none;
+
+  margin-top: 2em;
+  margin-left: 28em;
+  margin-bottom: -2em;
+}
+
+.social-post {
+  padding: 0.5em 0.6em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: rgb(71, 181, 255);
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.social-post-f {
+  padding: 0.5em 0.8em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: rgb(71, 181, 255);
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.social-post:hover {
+  padding: 0.5em 0.6em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: #eee;
+  background-color: rgb(255, 194, 111);
+  border-radius: 50%;
+}
+
+.social-post-f:hover {
+  padding: 0.5em 0.8em;
+
+  margin: auto;
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: #eee;
+  background-color: rgb(255, 194, 111);
+  border-radius: 50%;
+}
+
+.contact-us {
+  text-align: center;
+  margin-left: 3em;
+}
+
+.post-copyright {
+  margin-left: 0em;
+  width: 9em;
+}
+
+.contact-info {
+  border: 2px solid gray;
+  border-bottom: none;
+  padding: 1.2em;
+  margin: auto;
+  margin-top: 3em;
+}
+/* POST FOOTER CSS START*/

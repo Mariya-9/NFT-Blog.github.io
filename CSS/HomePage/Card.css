@@ -1,0 +1,132 @@
+#nested-cards {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 2px;
+
+  margin-left: 0em;
+  padding-left: 0;
+}
+
+.card {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2.5em;
+  margin: 0.2em;
+
+  height: 680px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+.card-img {
+  border-radius: 15%;
+  margin: auto;
+}
+.card-heading {
+  text-indent: 50px;
+}
+.card-blog {
+  text-indent: 50px;
+  background-color: rgb(248, 247, 243);
+}
+.card-opensea {
+  max-width: 18em;
+}
+
+.card-foundation {
+  max-width: 18em;
+  margin-top: 2.8em;
+}
+
+.card-nuqtah {
+  max-width: 18em;
+  margin-bottom: 0.5em;
+}
+
+.card-post {
+  width: 150px;
+  height: 30px;
+  padding: 1.25em;
+  padding-bottom: 2em;
+
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #444;
+  background-color: #444;
+  color: #eee;
+  border-radius: 20px;
+}
+
+.card-post:hover {
+  width: 150px;
+  height: 30px;
+  padding: 1.25em;
+  padding-bottom: 2em;
+
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid orange;
+  background-color: #fff;
+  color: orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card-button {
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-bottom: 5em;
+  color: #eee;
+}
+
+.card-caption {
+  text-indent: 50px;
+  font-style: italic;
+  font-size: 0.3em;
+  text-align: center;
+}
+
+.figcaption {
+  font-weight: bold;
+  color: brown;
+}
+
+.topic-name {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.card-details-1 {
+  margin-top: 4em;
+}
+
+.card-details-3 {
+  margin-top: 0.2em;
+}
+.card-cover {
+  max-width: 100%;
+  width: 800px;
+  z-index: 0;
+}
+
+.card-header,
+.card-define {
+  text-align: center;
+}
+
+.card-define {
+  margin-top: -1.2em;
+}
